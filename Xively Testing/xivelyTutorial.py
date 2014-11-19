@@ -35,20 +35,20 @@ def run():
     
     #Passes a bunch of datastream info to the xively package. 
     feed.datastreams = [
-    xively.Datastream(id="Inside_air_temperature",current_value=Variable1,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Atmospheric_pressure",current_value=Variable2,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Inside_humidity",current_value=Variable3,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Outside_humidity",current_value=Variable4,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Battery_voltage_flag",current_value=Variable5,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Bool')),
-    xively.Datastream(id="Daily_Rainfall",current_value=Variable6,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Rain_rate",current_value=Variable7,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Outside_air_temperature",current_value=Variable8,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Wind_Direction",current_value=Variable9,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Wind_Speed",current_value=Variable10,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Wind_speed_10min_avg",current_value=Variable11,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Wind_chill",current_value=Variable12,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Inside_dew_point",current_value=Variable13,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
-    xively.Datastream(id="Outside_dew_point",current_value=Variable14,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable1",current_value=Variable1,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable2",current_value=Variable2,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable3",current_value=Variable3,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable4",current_value=Variable4,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable5",current_value=Variable5,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable6",current_value=Variable6,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable7",current_value=Variable7,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable8",current_value=Variable8,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable9",current_value=Variable9,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable10",current_value=Variable10,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable11",current_value=Variable11,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable12",current_value=Variable12,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable13",current_value=Variable13,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
+    xively.Datastream(id="Variable14",current_value=Variable14,at=now,unit=xively.Unit(label='Celsius',type='basicSI',symbol='Cel')),
     ]
     
     # Attempts to update the feed and if it fails return an error
